@@ -10,4 +10,7 @@ public class Vehicle {
     public String  toString(){
         return this.brand + " " + this.year;
     }
+    public void displayInfo(){
+        System.out.println(toString());
+    }
 }
