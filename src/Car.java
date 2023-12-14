@@ -9,4 +9,8 @@ public class Car extends Vehicle{
     public String toSting(){
        return  super.toString() + " " + this.model;
     }
+    @Override
+    public void displayInfo(){
+        System.out.println(toSting());
+    }
 }
