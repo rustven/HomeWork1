@@ -7,4 +7,7 @@ public class Vehicle {
         this.brand = brand;
         this.year = year;
     }
+    public String  toString(){
+        return this.brand + " " + this.year;
+    }
 }

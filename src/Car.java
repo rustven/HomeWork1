@@ -6,4 +6,7 @@ public class Car extends Vehicle{
         super(brand,year);
         this.model = model;
     }
+    public String toSting(){
+       return  super.toString() + " " + this.model;
+    }
 }
